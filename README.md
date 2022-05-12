@@ -14,10 +14,10 @@ A CUDA Compatible GPU, Graphics cards with lower performance than RTX3060 may no
 Install all on requirements.txt by
 
     pip install -r requirements.txt
-Mode following code in file
     
-    80:classname = "PotPlayer64" ## HERE PUT YOUR APEX OR VIDEO PLAYER CLASS NAME
-    81:titlename = "testapex.mp4 - PotPlayer" ## HERE PUT YOUR APEX OR VIDEO PLAYER WINDOW NAME
+    # CUDA 11.3
+    conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+
 
 And then have a happy test
 
